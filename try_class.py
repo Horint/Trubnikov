@@ -31,6 +31,8 @@ class Ball(object):
                                                                                           self.speed,
                                                                                           self.diametr,
                                                                                           self.impuls)
+    
+    
                                                                                        
     
 def sravnit_impuls(b1,b2):
@@ -42,10 +44,10 @@ def sravnit_impuls(b1,b2):
         return 'Никто не взорвался, одинковый импульс'
     
         
-if __name__ == '__main__':
-    ball1 = Ball(radius=25, color='red', massa=78, speed=105)
-    ball2 = Ball(radius=43, color='green', massa=9999, speed=0.1)
-    print(sravnit_impuls(ball1,ball2))
+##if __name__ == '__main__':
+##    ball1 = Ball(radius=25, color='red', massa=78, speed=105)
+##    ball2 = Ball(radius=43, color='green', massa=9999, speed=0.1)
+##    print(sravnit_impuls(ball1,ball2))
     
 
     
